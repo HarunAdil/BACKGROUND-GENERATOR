@@ -1,0 +1,42 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+/* Style.css */
+
+#randomButton {
+  background-color: #000000; /* Change this to your desired background color */
+  color: #FFF; /* Change this to your desired text color */
+  padding: 10px 20px; /* Adjust padding to your liking */
+  border: none; /* Remove the default button border */
+  cursor: pointer;
+  font-size: 15px; /* Adjust font size as needed */
+  border-radius: 10px;
+}
+
+#randomButton:hover {
+  background-color: #808080; /* Change the hover background color if desired */
+}
